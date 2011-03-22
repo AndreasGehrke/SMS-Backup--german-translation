@@ -6,86 +6,85 @@
 
   <string name="ui_sync_button_label_idle">Backup</string>
   <string name="ui_sync_button_label_done">Backup</string>
-  <string name="ui_sync_button_label_canceling">Stopping</string>
+  <string name="ui_sync_button_label_canceling">Anhalten</string>
   <string name="ui_sync_button_label_error">Backup</string>
   <string name="ui_sync_button_label_syncing">Stop</string>
 
-  <string name="ui_restore_button_label_idle">Restore</string>
-  <string name="ui_restore_button_label_done">Restore</string>
+  <string name="ui_restore_button_label_idle">Wiederherstellen</string>
+  <string name="ui_restore_button_label_done">Wiederherstellen</string>
   <string name="ui_restore_button_label_restoring">Stop</string>
-  <string name="ui_restore_button_label_error">Restore</string>
+  <string name="ui_restore_button_label_error">Wiederherstellen</string>
 
-  <string name="status_idle">Idle</string>
-  <string name="status_idle_details">Last item backed up: <xliff:g id="last_backup_date">%1$s</xliff:g></string>
-  <string name="status_idle_details_never">never</string>
+  <string name="status_idle">Leerlauf</string>
+  <string name="status_idle_details">Zuletzt gesichertes Element:<xliff:g id="last_backup_date">%1$s</xliff:g></string>
+  <string name="status_idle_details_never">nie</string>
 
-  <string name="status_working">Working</string>
+  <string name="status_working">Arbeitet</string>
 
-  <string name="status_backup">Backing up</string>
-  <string name="status_restore">Restoring</string>
+  <string name="status_backup">Sichern</string>
+  <string name="status_restore">Wiederherstellen</string>
 
-  <string name="status_backup_details">Backed up <xliff:g id="backed_up_items">%1$d</xliff:g>/<xliff:g id="total_items">%2$d</xliff:g> items\u2026</string>
-  <string name="status_restore_details">Restored <xliff:g id="backed_up_items">%1$d</xliff:g>/<xliff:g id="total_items">%2$d</xliff:g> items\u2026</string>
-  <string name="status_login_details">Logging in\u2026</string>
-  <string name="status_updating_threads">Updating threads\u2026</string>
-  <string name="status_done">Done</string>
-  <string name="status_backup_done_details_max_per_sync">Maximum of %1$d items per backup reached. Restart backup to continue.</string>
-  <string name="status_backup_done_details_noitems">There were no items to backup.</string>
+  <string name="status_backup_details">Gesichert<xliff:g id="backed_up_items">%1$d</xliff:g>/<xliff:g id="total_items">%2$d</xliff:g> items\u2026</string>
+  <string name="status_restore_details">Wiederhergestellt<xliff:g id="backed_up_items">%1$d</xliff:g>/<xliff:g id="total_items">%2$d</xliff:g> items\u2026</string>
+  <string name="status_login_details">Einloggen als\u2026</string>
+  <string name="status_updating_threads">Aktualisiere threads\u2026</string>
+  <string name="status_done">Fertig</string>
+  <string name="status_backup_done_details_max_per_sync">Maximale Anzahl von %1$d Elementen pro Backup erreicht. Backup neu starten um fortzufahren.</string>
+  <string name="status_backup_done_details_noitems">Keine Elemente zum backupen gefunden.</string>
 
   <plurals name="status_backup_done_details">
-    <item quantity="one">Successfully backed up <xliff:g id="total_items">%1$d</xliff:g> item.</item>
-    <item quantity="other">Successfully backed up <xliff:g id="total_items">%1$d</xliff:g> items.</item>
+    <item quantity="one">Erfolgreich gesichert<xliff:g id="total_items">%1$d</xliff:g>Element.</item>
+    <item quantity="other">Erfolgreich gesichert<xliff:g id="total_items">%1$d</xliff:g>Elemente.</item>
   </plurals>
 
   <plurals name="status_restore_done_details">
-    <item quantity="one">Successfully restored <xliff:g id="total_items">%1$d</xliff:g> item (%2$d dups).</item>
-    <item quantity="other">Successfully restored <xliff:g id="total_items">%1$d</xliff:g> items (%2$d dups).</item>
+    <item quantity="one">Erflogreich wiederhergestellt<xliff:g id="total_items">%1$d</xliff:g>Element (%2$d dups).</item>
+    <item quantity="other">Erflogreich wiederhergestellt<xliff:g id="total_items">%1$d</xliff:g>Elemente (%2$d dups).</item>
   </plurals>
 
-  <string name="status_restore_canceled_details">%1$d/%2$d items successfully restored.</string>
+  <string name="status_restore_canceled_details">%1$d/%2$d Elemente erfolgreich wiederhergestellt.</string>
 
-  <string name="status_unknown_error">Error</string>
-  <string name="notification_unknown_error">SMSBackup+ error</string>
+  <string name="status_unknown_error">Fehler</string>
+  <string name="notification_unknown_error">SMSBackup+ Fehler</string>
 
-  <string name="status_unknown_error_details">Error during backup/restore:\n<xliff:g id="error_description">%1$s</xliff:g></string>
-  <string name="status_auth_failure">Login error</string>
-  <string name="notification_auth_failure">SMSBackup+ login error</string>
+  <string name="status_unknown_error_details">Fehler während des Backups/Wiederherstellens:\n<xliff:g id="error_description">%1$s</xliff:g></string>
+  <string name="status_auth_failure">Loginfehler</string>
+  <string name="notification_auth_failure">SMSBackup+ Loginfehler</string>
 
-  <string name="status_auth_failure_details_xoauth">XOAuth authorization error. Please make sure you enabled IMAP in your Gmail account settings.</string>
-  <string name="status_auth_failure_details_plain">IMAP authorization error.
-  Make sure login and password are set correctly.</string>
-  <string name="status_calc_details">Calculating\u2026</string>
-  <string name="status_canceled">Canceled</string>
-  <string name="status_canceled_details">%1$d/%2$d items successfully backed up.</string>
-  <string name="status_folder_error">Label error</string>
-  <string name="status_folder_error_details">Could not access or create the label/folder.</string>
-  <string name="status_gmail_temp_error">Temporary Gmail IMAP error, try again later.</string>
+  <string name="status_auth_failure_details_xoauth">XOAuth Autorisierungsfehler. Stellen Sie bitte sicher, dass Sie IMAP in Ihren Gmail-Konteneinstellungen aktiviert haben.</string>
+  <string name="status_auth_failure_details_plain">IMAP Autorisierungsfehler. Bitte stellen Sie sicher, dass Benutzernamen und Passwort richtig eingestellt wurden.</string>
+  <string name="status_calc_details">Berechne\u2026</string>
+  <string name="status_canceled">Abgebrochen</string>
+  <string name="status_canceled_details">%1$d/%2$d Elemente erfolgreich wiederhergestellt.</string>
+  <string name="status_folder_error">Label Fehler</string>
+  <string name="status_folder_error_details">Erstellen oder zugreifen auf Label/Folder nicht möglich.</string>
+  <string name="status_gmail_temp_error">Temporärer Gmail IMAP-Fehler, versuchen Sie es später erneut.</string>
 
-  <string name="ui_settings_label">Settings</string>
-  <string name="ui_settings_advanced_label">Advanced settings</string>
-  <string name="ui_settings_advanced_desc">Set advanced preferences.</string>
-  <string name="ui_settings_advanced_server_label">IMAP server settings</string>
-  <string name="ui_settings_advanced_server_desc">Do not change unless you know what you are doing!</string>
+  <string name="ui_settings_label">Einstellungen</string>
+  <string name="ui_settings_advanced_label">Erweiterte Einstellungen</string>
+  <string name="ui_settings_advanced_desc">Erweiterte Einstellungen bearbeiten.</string>
+  <string name="ui_settings_advanced_server_label">IMAP-Server Einstellungen</string>
+  <string name="ui_settings_advanced_server_desc">Ändern Sie nichts wenn Sie sich nicht sicher sind, was die Auswirkungen sind!</string>
 
-  <string name="imap_settings">IMAP settings</string>
-  <string name="ui_login_label">Username</string>
-  <string name="ui_login_desc">Your IMAP account/e-mail address.</string>
-  <string name="ui_login_dialog_msg">WARNING: Changing the username might break things when using XOAuth.</string>
-  <string name="ui_password_label">Password</string>
-  <string name="ui_password_desc">Your IMAP account password. Only used when XOAuth is disabled.</string>
-  <string name="ui_password_dialog_msg">The password is stored on this device and is only used to login.</string>
-  <string name="ui_server_label">Server address</string>
-  <string name="ui_server_desc">The address of the server you wish to sync to incl. its port.</string>
-  <string name="ui_server_dialog_msg">Default for gmail is \"imap.gmail.com:993\"</string>
-  <string name="ui_protocol_label">Security</string>
-  <string name="ui_protocol_desc">The security protocol of the server. Default for gmail is \"SSL (Required)\"."</string>
-  <string name="ui_authentication_label">Authentication</string>
-  <string name="ui_authentication_desc">The authentication method. Default for gmail is \"XOauth\".</string>
-  <string name="plain">Plain text</string>
+  <string name="imap_settings">IMAP-Einstellungen</string>
+  <string name="ui_login_label">Benutzername</string>
+  <string name="ui_login_desc">Ihr IMAP-Konto/E-Mail-Adresse.</string>
+  <string name="ui_login_dialog_msg">ACHTUNG: Den Benutzernamen zu ändern kann zu Fehler bei der Benutzung von XOAuth f&uumlren.</string>
+  <string name="ui_password_label">Passwort</string>
+  <string name="ui_password_desc">Ihr IMAP-Konto-Passwort. Wird nur benutzt wenn XOAuth deaktiviert wurde.</string>
+  <string name="ui_password_dialog_msg">Das Passwort ist auf diesem Gerät gespeichert und wird nun für den Login benutzt.</string>
+  <string name="ui_server_label">Server-Adresse</string>
+  <string name="ui_server_desc">Die Adresse des Servers mit welchen Sie die Synchronisation wünschen inkl. dessen Port.</string>
+  <string name="ui_server_dialog_msg">Für Gmail lautet der Standard \"imap.gmail.com:993\"</string>
+  <string name="ui_protocol_label">Sicherheit</string>
+  <string name="ui_protocol_desc">Das Sicherheitsporokoll des Servers. Standard für Gmail ist \"SSL (Required)\"."</string>
+  <string name="ui_authentication_label">Authentifizierung</string>
+  <string name="ui_authentication_desc">Die Authentifizierungsmechanismus. Der Standard für Gmail ist \"XOauth\".</string>
+  <string name="plain">Plain Text</string>
   <string name="xoauth">XOAuth</string>
 
-  <string name="ui_imap_folder_label">Gmail label</string>
-  <string name="ui_imap_folder_desc">Gmail label assigned to SMS.</string>
+  <string name="ui_imap_folder_label">Gmail Label</string>
+  <string name="ui_imap_folder_desc">Gmail Label welches den SMS zugewiesen wird.</string>
   <string name="ui_imap_folder_label_dialog_msg">Backed up SMS messages will be tagged with this label in Gmail.</string>
   <string name="ui_mail_subject_prefix_label">Email subject prefix</string>
   <string name="ui_mail_subject_prefix_desc">Use IMAP folder name as prefix in email subject</string>
