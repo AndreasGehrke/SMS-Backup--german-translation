@@ -85,7 +85,7 @@
 
   <string name="ui_imap_folder_label">Gmail Label</string>
   <string name="ui_imap_folder_desc">Gmail Label welches den SMS zugewiesen wird.</string>
-  <string name="ui_imap_folder_label_dialog_msg">Backed up SMS messages will be tagged with this label in Gmail.</string>
+  <string name="ui_imap_folder_label_dialog_msg">Gesicherte SMS Nachrichten werden mit diesen Label auf Gmail markiert.</string>
   <string name="ui_mail_subject_prefix_label">Email subject prefix</string>
   <string name="ui_mail_subject_prefix_desc">Use IMAP folder name as prefix in email subject</string>
 
@@ -97,12 +97,12 @@
   <string name="ui_restore_starred_only_label">Starred items</string>
   <string name="ui_restore_starred_only_desc">Only restore starred items.</string>
 
-  <string name="ui_backup_mms_label">Backup MMS</string>
-  <string name="ui_backup_mms_desc">Enable MMS backup</string>
-  <string name="ui_backup_mms_not_supported">MMS backup not supported on this platform.</string>
+  <string name="ui_backup_mms_label">Sichere MMS</string>
+  <string name="ui_backup_mms_desc">Aktiviere MMS Sicherung</string>
+  <string name="ui_backup_mms_not_supported">MMS Sicherungen sind auf dieser Platform nicht verf&uumlgbar.</string>
 
-  <string name="ui_backup_calllog_label">Backup Call log</string>
-  <string name="ui_backup_calllog_desc">Enable Call log backup</string>
+  <string name="ui_backup_calllog_label">Sichere Anruferliste</string>
+  <string name="ui_backup_calllog_desc">Aktiviert die Sicherung von der Anruferliste</string>
 
   <string name="ui_backup_calllog_sync_calendar_enabled_label">Calendar sync</string>
   <string name="ui_backup_calllog_sync_calendar_enabled_desc">Add call log entries to calendar</string>
@@ -141,20 +141,19 @@
   <string name="ui_auto_backup_incoming_schedule_label">Incoming schedule</string>
   <string name="ui_auto_backup_incoming_schedule_desc">When to backup incoming SMS (after arrival)</string>
 
-  <string name="ui_wifi_only_label">Require Wifi</string>
-  <string name="ui_wifi_only_desc">Only backup when connected to Wifi</string>
+  <string name="ui_wifi_only_label">Erfordert Bifi</string>
+  <string name="ui_wifi_only_desc">Sichere Daten nur wenn man an Bifi verbunden</string>
 
-  <string name="ui_notifications_label">Notifications</string>
-  <string name="ui_notifications_desc">Background notifications</string>
+  <string name="ui_notifications_label">Benachrichtigungen</string>
+  <string name="ui_notifications_desc">Hintergrund Benachrichtigungen</string>
 
-  <string name="error_wifi_only_no_connection">No Wifi connection</string>
-  <string name="error_no_connection">No internet connection</string>
+  <string name="error_wifi_only_no_connection">Keine Bifi Verbindung</string>
+  <string name="error_no_connection">Keine Internet Verbindung</string>
 
-  <string name="ui_dialog_missing_credentials_title">Login information</string>
+  <string name="ui_dialog_missing_credentials_title">Login Informationen</string>
 
-  <string name="ui_dialog_missing_credentials_msg_xoauth">You need to connect your Gmail account first.</string>
-  <string name="ui_dialog_missing_credentials_msg_plain">You need to set your
-  username and password first.</string>
+  <string name="ui_dialog_missing_credentials_msg_xoauth">Du musst zuerst dein Gmail Konto verbinden.</string>
+  <string name="ui_dialog_missing_credentials_msg_plain">Du musst zuerst deinen Benutzernamen und Passwort eingeben.</string>
 
   <string name="ui_dialog_sync_data_reset_title">Backup data reset</string>
   <string name="ui_dialog_sync_data_reset_msg">
